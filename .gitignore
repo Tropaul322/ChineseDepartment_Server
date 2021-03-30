@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/coverage
+/.vscode
+/src/server/.node_modules
+.eslintcache
+.env
