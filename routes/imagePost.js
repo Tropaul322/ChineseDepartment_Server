@@ -137,7 +137,7 @@ router.delete('/delete/:name', verifyToken, (req, res) => {
           Bucket: 'chinesedepartment',
         })
         .promise();
-      return res.status(288).send('gi');
+      return res.status(288).send('Deleted');
     }
   });
 });
